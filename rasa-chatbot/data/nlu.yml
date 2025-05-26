@@ -1,0 +1,28 @@
+intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+
+intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - take care
+
+intent: ask_weather
+  examples: |
+    - what's the weather like?
+    - tell me the weather
+    - how's the weather today?
+    - will it rain tomorrow?
+
+intent: ask_time
+  examples: |
+    - what time is it?
+    - can you tell me the time?
+    - how late is it?
+    - what’s the current time?

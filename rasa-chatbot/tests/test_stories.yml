@@ -1,0 +1,13 @@
+version: "2.0"
+stories:
+  - story: test story 1
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_about_weather
+      - action: utter_weather
+
+  - story: test story 2
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye

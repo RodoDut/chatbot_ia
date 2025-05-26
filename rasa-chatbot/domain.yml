@@ -1,0 +1,25 @@
+intents:
+  - greet
+  - goodbye
+  - ask_question
+
+entities:
+  - location
+  - time
+
+slots:
+  location:
+    type: text
+  time:
+    type: text
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+  utter_ask_question:
+    - text: "What would you like to know?"
+
+actions:
+  - action_custom_response

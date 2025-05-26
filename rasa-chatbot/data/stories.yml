@@ -1,0 +1,21 @@
+version: "2.0"
+stories:
+  - story: greet
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: ask_about_weather
+    steps:
+      - intent: ask_weather
+      - action: utter_weather_info
+
+  - story: fallback
+    steps:
+      - intent: nlu_fallback
+      - action: utter_default_response

@@ -32,7 +32,7 @@ rasa-chatbot/
 
 ## Requisitos
 
-- Python 3.9+
+- Python 3.8 - 3.10
 - Rasa 3.0+
 - BeautifulSoup4
 - Requests

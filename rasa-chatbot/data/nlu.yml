@@ -11,6 +11,10 @@ nlu:
       - buen día
       - buenas tardes
       - buenas noches
+      - Hola! Soy {name}
+      - Hola! Soy [John](name)
+      - Mi nombre es [Ana](name)
+      - Soy [Carlos](name)
 
   - intent: goodbye
     examples: |

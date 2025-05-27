@@ -2,6 +2,8 @@ intents:
   - greet
   - goodbye
   - ask_question
+  - ask_weather
+  - ask_time
 
 entities:
   - location
@@ -10,8 +12,14 @@ entities:
 slots:
   location:
     type: text
+    mappings:
+      - type: from_entity
+        entity: location
   time:
     type: text
+    mappings:
+      - type: from_entity
+        entity: time
 
 responses:
   utter_greet:
@@ -20,6 +28,14 @@ responses:
     - text: "Goodbye! Have a great day!"
   utter_ask_question:
     - text: "What would you like to know?"
+  utter_default_response:
+    - text: "Lo siento, no entendí eso. ¿Podrías reformularlo?"
+  utter_ask_weather:
+    - text: "The weather is sunny with a chance of rain later."
+    - text: "El clima está soleado con posibilidad de lluvia más tarde."
+  utter_ask_time:
+    - text: "The current time is {time}."
+    - text: "La hora actual es {time}."
 
 actions:
   - action_custom_response

@@ -1,12 +1,12 @@
 # Rasa Chatbot with Clean Architecture
 
-Este proyecto implementa un chatbot inteligente utilizando Rasa y siguiendo los principios de Clean Architecture y SOLID. El chatbot está diseñado para ser fácilmente adaptable a diferentes compañías, permitiendo obtener información de productos y servicios de manera automatizada.
+Este proyecto implementa un chatbot inteligente utilizando Rasa y siguiendo los principios de Clean Architecture y SOLID. El chatbot está diseñado para ser un punto de partida y fácilmente adaptable a diferentes compañías, permitiendo obtener información de productos y servicios de manera automatizada.
 
 ## Características
 
 - Arquitectura limpia (Clean Architecture)
 - Principios SOLID
-- Web scraping automatizado
+- Web scraping automatizado (estructura básica)
 - Generación automática de datos de entrenamiento
 - Fácilmente adaptable a diferentes compañías
 

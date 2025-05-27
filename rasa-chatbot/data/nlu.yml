@@ -1,28 +1,46 @@
-intent: greet
-  examples: |
-    - hi
-    - hello
-    - hey
-    - good morning
-    - good evening
+nlu:
+  - intent: greet
+    examples: |
+      - hi
+      - hello
+      - hey
+      - good morning
+      - good evening
+      - hola
+      - qué tal
+      - buen día
+      - buenas tardes
+      - buenas noches
 
-intent: goodbye
-  examples: |
-    - bye
-    - goodbye
-    - see you later
-    - take care
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you later
+      - take care
+      - chau
+      - adiós
+      - nos vemos
+      - cuidate
 
-intent: ask_weather
-  examples: |
-    - what's the weather like?
-    - tell me the weather
-    - how's the weather today?
-    - will it rain tomorrow?
+  - intent: ask_weather
+    examples: |
+      - what's the weather like?
+      - tell me the weather
+      - how's the weather today?
+      - will it rain tomorrow?
+      - cómo está el clima?
+      - decime el clima
+      - cómo va a estar el tiempo hoy?
+      - va a llover mañana?
 
-intent: ask_time
-  examples: |
-    - what time is it?
-    - can you tell me the time?
-    - how late is it?
-    - what’s the current time?
+  - intent: ask_time
+    examples: |
+      - what time is it?
+      - can you tell me the time?
+      - how late is it?
+      - what’s the current time?
+      - qué hora es?
+      - me decís la hora?
+      - qué hora tenés?
+      - cuál es la hora actual?
